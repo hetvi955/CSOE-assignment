@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>my page</title>
+</head>
+
+<body>
+    <h1 id="main">Simple HTML demo assignment</h1>
+
+    <div class="counterDiv">
+
+        <h2> Tap '+' to increment counter</h2>
+        <h2 id="divider"> | </h2>
+        <h2> Tap '-' to decrement counter</h2>
+    </div>
+
+    <h1 style="display: flex; justify-content: center; color: rgb(145, 5, 63);"> my num :
+        <span id="num" style="padding-left: 0.2em;"> 0 </span>
+    </h1>
+    <div id="buttonDiv">
+        <button class="incrementer" onclick={increment()}>
+            <h1>+</h1>
+        </button>
+
+        <button class="decrementer" onclick={decrement()}>
+            <h1>-</h1>
+        </button>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
